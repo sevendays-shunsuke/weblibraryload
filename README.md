@@ -1,23 +1,23 @@
 # Web Library Load
 
-## about
+## About
 This is simple load for web library.
 
-## how to use
-### load this library
+## How To Use
+### Load This Library
 `<script type"text/javascript" src="./loadlib.js"></script>`
 
-### use this library
+### Use This Library
 `    
 var loadlib = new loadlib();
 loadlib.load("jquery");
 loadlib.load("bootstrap","2.3");
 `
-### parameter
+### Parameter
 loadlib.load(`library name`,[`version`]);
 
 if version is no selected, use for latest version.
 
-## support library
+## Support Library
 jquery
 bootstrap

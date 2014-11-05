@@ -13,7 +13,7 @@ var loadlib = new loadlib();
 loadlib.load("jquery");
 loadlib.load("bootstrap","2.3");
 `
-### Parameter
+## Parameter
 loadlib.load(`library name`,[`version`]);
 
 if version is no selected, use for latest version.
